@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.active {
+    background-color: rgba(45, 45, 48, 0.349);
+}
+.container {
+    padding: 20px;
+    border-radius: 50%
+}
+.row {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.red {
+    background: rgb(243,255,0);
+    background: linear-gradient(0deg, rgba(243,255,0,1) 0%, rgba(253,45,45,1) 19%);
+}
+.yellow {
+    background: rgb(50,76,255);
+    background: linear-gradient(0deg, rgba(50,76,255,1) 0%, rgba(243,255,0,1) 19%);
+}
+.blue {
+    background: #10bb51;
+    background: linear-gradient(0deg, #10bb51 0%, rgba(50,76,255,1) 19%);
+}
+.green {
+    background: #ff5cce;
+    background: linear-gradient(0deg,#ff5cce, #10bb51 19%);
+}
+.pink {
+    background: #ffb224e0;
+    background: linear-gradient(0deg, #ffb224e0 0%, #ff5cce 19%);
+}
+.orange{
+    background: #ffb224e0;
+    background: linear-gradient(0deg, #ffb224e0 0%, #ffb224e0 19%);
+}
+.circle {
+    z-index: 999;
+    margin: 10px;
+    border: 5px solid rgb(27, 26, 26);
+    border-radius: 50%;
+    width: 100%;
+    height: 70px;
+}
+.row:first-child{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.row:last-child {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.circle-container {
+    border-radius: 50%;
+    background-color: red;
+    
+}
